@@ -1,8 +1,8 @@
 SELECT
-    sid,
-    name,
-    basin,
-    season
+    sid AS Storm_ID,
+    name AS Storm_Name,
+    basin AS Ocean,
+    season As Year
 FROM
     `bigquery-public-data.noaa_hurricanes.hurricanes`
 WHERE
@@ -12,4 +12,4 @@ ORDER BY
     
  ## Shows ORDERBY and Conditional searching on SQL
  
-## Link to query: https://console.cloud.google.com/bigquery?sq=783340194927:827d5ee912954d5b8e40764bea5cc233
+
