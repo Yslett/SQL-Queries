@@ -6,6 +6,6 @@ SELECT
 FROM
     `bigquery-public-data.noaa_hurricanes.hurricanes`
 WHERE
-    basin = 'NA'
-ORDER BY
-    season DESC
+    Year = 2000
+    
+## This shows filtering data in SQL for a specifc year
