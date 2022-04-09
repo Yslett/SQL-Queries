@@ -1,0 +1,8 @@
+SELECT
+   COUNT (sid) DISTINT
+FROM
+    `bigquery-public-data.noaa_hurricanes.hurricanes`
+WHERE
+    season > '2000' and basin = 'NA'
+
+##This shows a compound condition where the year was after 2000 and only for the North Atlantic Ocean
