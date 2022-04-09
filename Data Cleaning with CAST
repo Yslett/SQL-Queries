@@ -1,0 +1,8 @@
+SELECT
+    CAST(purchase_price AS float64)
+FROM
+    customer_data.customer_purchase
+ORDER BY 
+    CAST(purchase_price AS float64) DESC
+    
+##Shows data cleaning by changing one data type to another type using CAST
