@@ -1,0 +1,8 @@
+SELECT
+   COUNT (sid) DISTINCT
+FROM
+    `bigquery-public-data.noaa_hurricanes.hurricanes`
+WHERE
+    season = '2021'
+    
+##This shows the number of Hurricanes worldwide in 2021 = 5170
