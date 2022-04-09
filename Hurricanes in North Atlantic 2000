@@ -1,0 +1,12 @@
+SELECT 
+    sid,
+    name,
+    season,
+    basin
+FROM 
+    `bigquery-public-data.noaa_hurricanes.hurricanes` 
+WHERE
+    season = '2000' AND basin = 'NA'
+    
+    ##query link: https://console.cloud.google.com/bigquery?sq=783340194927:827d5ee912954d5b8e40764bea5cc233 
+    
