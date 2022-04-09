@@ -1,0 +1,15 @@
+SELECT
+    sid,
+    name,
+    basin,
+    season
+FROM
+    `bigquery-public-data.noaa_hurricanes.hurricanes`
+WHERE
+    basin = 'NA'
+ORDER BY
+    season DESC
+    
+ ## Shows ORDERBY and Conditional searching on SQL
+ 
+## Link to query: https://console.cloud.google.com/bigquery?sq=783340194927:827d5ee912954d5b8e40764bea5cc233
